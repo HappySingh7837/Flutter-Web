@@ -14,14 +14,14 @@ class CourseDetails extends StatelessWidget {
           Text(
             'FLUTTER WEB.\nTHE BASICS',
             style: TextStyle(
-                fontWeight: FontWeight.w800, fontSize: 80, height: 0.9),
+                fontWeight: FontWeight.w600, fontSize:45, height: 0.8),
           ),
           SizedBox(
             height: 30,
           ),
           Text(
             'In this course we will go over the basics of using Flutter Web for website development. Topics will include Responsive Layout, Deploying, Font Changes, Hover Functionality, Modals and more.',
-            style: TextStyle(fontSize: 21, height: 1.7),
+            style: TextStyle(fontSize: 21, height: 1.4),
           ),
         ],
       ),
