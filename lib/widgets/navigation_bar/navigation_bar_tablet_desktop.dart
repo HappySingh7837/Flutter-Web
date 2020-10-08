@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'navBar_item.dart';
+import 'navbar_item.dart';
 import 'navbar_logo.dart';
 
 class NavigationBarTabletDesktop extends StatelessWidget {
@@ -29,4 +29,3 @@ class NavigationBarTabletDesktop extends StatelessWidget {
     );
   }
 }
-

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class CentredView extends StatelessWidget {
+class CenteredView extends StatelessWidget {
   final Widget child;
-  const CentredView({Key key, this.child}) : super(key: key);
+  const CenteredView({Key key, this.child}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class CentredView extends StatelessWidget {
       child: ConstrainedBox(
         constraints: BoxConstraints(maxWidth: 1200),
         child: child,
-        ),
+      ),
     );
   }
 }

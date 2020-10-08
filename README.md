@@ -1,4 +1,4 @@
-# website_prac
+# the_basics
 
 A new Flutter project.
 

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-
-import 'course_btn_desktop.dart';
-import 'course_btn_mobile.dart';
+import 'package:the_basics/widgets/call_to_action/call_to_action_mobile.dart';
+import 'package:the_basics/widgets/call_to_action/call_to_action_tablet_desktop.dart';
 
 class CallToAction extends StatelessWidget {
   final String title;

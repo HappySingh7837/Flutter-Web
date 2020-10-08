@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:website_prac/constant/app_color.dart';
+import 'package:the_basics/constants/app_colors.dart';
 
 class NavigationDrawerHeader extends StatelessWidget {
   const NavigationDrawerHeader({Key key}) : super(key: key);
@@ -16,14 +16,13 @@ class NavigationDrawerHeader extends StatelessWidget {
           Text(
             'SKILL UP NOW',
             style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.w800,
-              color: Colors.white,
-            ),
+                fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
           ),
           Text(
             'TAP HERE',
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+              color: Colors.white,
+            ),
           )
         ],
       ),
